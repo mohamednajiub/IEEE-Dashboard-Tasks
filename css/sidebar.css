@@ -1,0 +1,55 @@
+.navbar-side {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -500%;
+  padding: 0;
+  list-style: none;
+  border-left: 2px solid #0076A1;
+  background-color: #f7f7f9;
+  z-index: 1000;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease
+}
+.navbar-light .navbar-brand {
+  color: #0076A1;
+}
+.navbar-side-item:first-of-type{
+  margin-top: 20px;
+  height: auto
+}
+
+.navbar-side-item {
+  padding: 2px 0;
+  margin: 0;
+  border-bottom: 1px solid #0076A1;
+  height: 40px;
+  line-height: 40px
+}
+.side-link {
+  padding-left: 2rem
+}
+
+.reveal {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+  left: 0;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+.overlay {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  background-color: #0076A1;
+  opacity: 0.3;
+  z-index: 990;
+}

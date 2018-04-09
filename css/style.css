@@ -1,0 +1,21 @@
+.login{
+    border-right: 1px solid #ccc
+}
+footer ul li{
+    display: inline-block;
+    margin-right: 5px
+}
+footer ul li i{
+    color: rgb(80, 80, 80);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+footer ul li i:hover{
+    color: #0076A1
+}
+.preview{
+  height: 200px;
+  width: 200px
+}
